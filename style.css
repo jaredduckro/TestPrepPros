@@ -202,13 +202,13 @@ form {
 .call {
     border-radius:5px;
     text-align:center;
-    background-color:#0000b0;
+    background-color:#ffffff;
     width:60%;
     padding: 5px;
     margin:10px auto 0 auto;
 }
  .call p{
-    color:#ffffff;
+    color:#1c259b;
     font-size:1.5em;
     padding:0;
     margin:0;
@@ -443,3 +443,4 @@ form {
   "div1 div2";
 }
 }
+
