@@ -38,13 +38,13 @@
   method="POST">
 
           <div class="div1">
-          Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname"><br>
-          Email*<br><input type="email" size="30" required name="email"><br>
-          Phone*<br><input type="tel" size="20" placeholder="(xxx)xxx-xxxx" name="phone"><br>
-          Website:<br><input type="url" size="40" name="website"><br>
+          Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="name"><br>
+          Email*<br><input type="email" size="30" required name="email" aria-label="email"><br>
+          Phone*<br><input type="tel" size="20" placeholder="(xxx)xxx-xxxx" name="phone" aria-label="phone"><br>
+          Website:<br><input type="url" size="40" name="website" aria-label="website"><br>
           </div>
           <div class="div2">
-            Current High School:<br><input type="datalist" size="30" list="schools"><br><datalist id="schools">
+            Current High School:<br><input type="datalist" size="30" list="schools" aria-label="current high school"><br><datalist id="schools">
               <option value="Beaverbrook"></option>
               <option value="Birchwood"></option>
               <option value="Daytona"></option>
@@ -52,8 +52,8 @@
               <option value="Hainesville"></option>
               <option value="Other"></option>
             </datalist>
-            Expected date of entry:<br><input type="date" size="30" name="expected date of entry"><br>
-            Number of days/week desired:<br><input type="number" size="30" name="number of days/week desired" min="1" max="5" step="1" value="2"><br>
+            Expected date of entry:<br><input type="date" size="30" name="expected date of entry" aria-label="exoected date of entry"><br>
+            Number of days/week desired:<br><input type="number" size="30" name="number of days/week desired" min="1" max="5" step="1" value="2" aria-label="number of days/week desired"><br>
             <br><input type="submit" value="Help Me Boost My Score!" class="button"><br>
           </div>
         <div class="call">
